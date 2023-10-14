@@ -10,9 +10,9 @@ services:
         - NET_ADMIN
     ports:
         - 1194:1194/udp
-        - 80:8080
+        - 9080:8080
     environment:
-        HOST_ADDR: "150.136.115.150"
+        HOST_ADDR: "casa.tschannerl.com"
     volumes:
         - ./openvpn_conf:/doc/Dockovpn
     restart: always
